@@ -8,7 +8,6 @@ int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
 char *argstostr(int ac, char **av);
 char **strtow(char *str);
-unsigned long int clear_bit(unsigned long int *n, unsigned int index);
 
 
 #endif /* MAIN_H */
